@@ -1,12 +1,21 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Hardware/Software Co-design
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Firmware Security
+
+- skill: Intermittent Computation
+
+- skill: "Debugging: Code Composer Studio, mspdebug"
+
+- skill: "Compiler Toolchain: GCC, TI MSP-GCC, MSPGCC"
+
+- skill: "RTL Design: AMD Vivado Design Suite"
+
+- skill: "Embedded Systems/FPGAs: Arm Cortex-M, Xilinx Artix-7"
+
+- skill: "Trusted Execution Environment: Texas Instruments MSP IP Encapsulation"
+
+- skill: "Threat Modelling and Risk Assessment: ANSYS Medini"
+
+- skill: "Programming Languages: C, Assembly (RISC-V, ARM), Verilog, Python, Javascript"

@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/me.png" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -90,18 +90,58 @@
 
 
           <p class="resume-item-copy">{{ education.summary }}</p>
+          {% if education.phd %}
+          <p class="resume-item-copy"><b>Advisor: </b>{{ education.advisor }}</p>
+          <p class="resume-item-copy"><b>Research Area: </b>{{ education.research }}</p>
+          {% endif %}
+          {% if education.masters %}
+          <p class="resume-item-copy"><b>Major: </b>{{ education.major }}</p>
+          {% endif %}
         </div>
         {% endfor %}
       </section>
       <!-- end Education -->
       {% endif %}
 
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+        {% for publication in site.data.publications %}
+        <div class="resume-item">
+          <p class="resume-item-details"><b>{{ publication.title }}.</b></p>
+          <p>
+            <u>{{ publication.fauthor }}</u>
+            {{ publication.oauthors }}.
+            {{ publication.conference }}.
+            {{ publication.date }}.
+          </p>
+          {% if publication.pdf %}
+          <p>
+            <a href="{{ publication.pdf }}" style="text-decoration:none; color:chocolate">[PDF]</a>
+            {% if publication.slides %}
+            <a href="{{ publication.slides }}" style="text-decoration:none; color:chocolate">[Slides]</a>
+            {% endif %}
+            {% if publication.talk %}
+            <a href="{{ publication.talk }}" style="text-decoration:none; color:chocolate">[Talk]</a>
+            {% endif %}
+          </p>
+          {% endif %}
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Publications -->
+      {% endif %}
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Selected Projects</h2>
         </header>
 
         {% for project in site.data.projects %}
@@ -122,14 +162,15 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Technical Skills</h2>
         </header>
-        {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          <ul class="resume-item-list">
+            {% for skill in site.data.skills %}
+            <li>{{ skill.skill }}</li>
+            {% endfor %}
+          </ul>
         </div>
-        {% endfor %}
 
       </section>
       <!-- end Skills -->
@@ -232,8 +273,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line"><a href="https://github.com/jglovier/resume-template">Page Design</a></p>
       </footer>
 
     </div>

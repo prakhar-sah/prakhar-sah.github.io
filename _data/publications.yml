@@ -1,0 +1,16 @@
+- title: "RIPencapsulation: Defeating IP Encapsulation on TI MSP Devices"
+  fauthor: Prakhar Sah
+  oauthors: and Matthew Hicks
+  conference: USENIX WOOT Conference on Offensive Technologies (WOOT)
+  date: August 2024
+  pdf: https://www.usenix.org/system/files/woot24-sah.pdf
+  slides: https://www.usenix.org/system/files/woot24_slides-sah.pdf
+  talk: https://www.youtube.com/watch?v=kBaJQF3GOWA
+
+- title: "Hitchhiker’s Guide to Secure Checkpointing on Energy-Harvesting Systems"
+  fauthor: Prakhar Sah
+  oauthors: and Matthew Hicks
+  conference: International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems (ENSsys)
+  date: November 2023
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3628353.3628542
+  talk: https://www.youtube.com/watch?v=-UlMdiWx3tA
