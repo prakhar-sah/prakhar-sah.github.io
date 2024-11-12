@@ -1,16 +1,31 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+# Ripencapsulation
+- project: Interrupt-based side-channel attacks against commercial TEEs
+  role: Main Contributor
+  duration: 2022 &mdash; 2024
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: "Texas Instruments MSP IP Encapsulation (IPE) aims to provide confidentiality
+                of data stored inside the IP-encapsulated memory zone; this includes proprietary
+                code and keys. I devised exploits breaks this guarantee by leveraging two fundamental
+                drawbacks in MSP430 IPE design: residual state on context switches and lack of call site
+                verification. I exploit these flaws to create an interrupt-based side channel to gain
+                cycle-accurate control IPE execution and exfiltrate all IPE secrets. The evaluation shows
+                that these attacks work against most-widely used production tools and settings of popular
+                open-source cryptographic implementations."
+  ripe: true
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: A survey of secure checkpointing techniques in energy-harvesting devices
+  role: Main Contributor
+  duration: 2022 &mdash; 2023
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: "I survey state-of-the-art works catering to the security of checkpointing techniques in
+               energy-harvesting devices. I find that the protection schemes fall under one of the two categories:
+               crypto- graphic or PC-based memory isolation. My comparative study of the adopted threat models 
+               reveals that most of the secure checkpointing techniques do not consider an adversary with physical 
+               access which is a common occurrence in real-world IoT deployments. To design a reliable intermittent
+               computing defense, one must consider a real-world adversarial model that is practical for both vendors
+               and software providers in terms of deployment, flexibility, and energy consciousness."
+  hitchhiker: true
