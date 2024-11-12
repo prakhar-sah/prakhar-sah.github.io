@@ -58,7 +58,7 @@ resume_social_links:
   # resume_website_url:           "http://joelglovier.com"
   # resume_medium_url:            "https://medium.com/@jglovier"
   resume_gscholar_url:          "https://scholar.google.com/citations?hl=en&user=6prfRnoAAAAJ"
-  resume_cv_url:                "my-cv.pdf"
+  resume_cv_url:                "./my-cv.pdf"
 resume_print_social_links:      true
 
 # Design settings
