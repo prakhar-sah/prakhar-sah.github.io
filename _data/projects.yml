@@ -1,8 +1,33 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+# uRNG
+- project: A Framework for Evaluating Random Number Generators in Intermittent Computing Devices
+  role: Main Contributor
+  duration: 2025 &mdash; 2026
+  # url: "#"
+  description: "A systematic framework to evaluate and qualify Random Number Generators (RNGs) under
+                intermittent operation and environmental influence. I use this framework to evaluate
+                UlSWaP RNGs spanning 189 commercial devices as well as academic prototypes based on SRAM
+                and Ring Oscillators. My analysis finds that 132 devices lack on-chip RNGs, 27 employ
+                RNGs that are insecure, and only 23 provide trustworthy entropy sources."
+  urng: true
+
+# Sheriff
+- project: Secure Enclave for Confused Deputy (CD) Threat on UlSWaP Devices
+  role: Main Contributor
+  duration: 2023 &mdash; 2025
+  # url: "#"
+  description: "Hardware/software co-design for secure storage and context management addressing code and
+                data protection needs in Ultra-low Size, Weight, and Power (UlSWaP) devices that underlie
+                smart dust by providing a hardware-enforced secure region of memory to execute from and
+                store secrets, while providing an interface that allows for secure software introspection.
+                Prevents CD attacks while incurring <1% hardware and <3% software runtime overhead based
+                on evaluation using FPGA and simulator."
+  sheriff: true
+
 # Ripencapsulation
-- project: Interrupt-based side-channel attacks against commercial TEEs
+- project: Interrupt-based Side-Channel Attacks against Commercial TEEs
   role: Main Contributor
   duration: 2022 &mdash; 2024
   # url: "#"
@@ -16,8 +41,8 @@
                 open-source cryptographic implementations."
   ripe: true
 
-# Springfield Community Outreach Group
-- project: A survey of secure checkpointing techniques in energy-harvesting devices
+# Hitchhiker
+- project: A Survey of Secure Checkpointing Techniques in Energy-Harvesting Devices
   role: Main Contributor
   duration: 2022 &mdash; 2023
   # url: "#"
