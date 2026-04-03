@@ -28,7 +28,7 @@ resume_header_intro: "<p>With 4+ years of experience in intermittent computation
                          optimizing ultra-low-power embedded and batteryless devices. My work spans
                          system-level benchmarking, hardware/software co-design, and analyzing
                          performance–energy tradeoffs across real-world deployments, alongside security
-                         evaluations including side-channel, code-reuse, and TEE-based systems.</p>"
+                         evaluations including side-channel, code-reuse, and TEE systems.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
