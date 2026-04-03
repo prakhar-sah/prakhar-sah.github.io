@@ -1,21 +1,19 @@
 # Skills
 
-- skill: Hardware/Software Co-design
+- skill: "Embedded Systems"
 
-- skill: Firmware Security
+- skill: "Intermittent Computation"
 
-- skill: Intermittent Computation
+- skill: "Hardware Security"
 
-- skill: "Debugging: Code Composer Studio, mspdebug"
+- skill: "Hardware/Software Co-Design"
 
-- skill: "Compiler Toolchain: GCC, TI MSP-GCC, MSPGCC"
+- skill: "Threat Modeling & Risk Assessment"
 
-- skill: "RTL Design: AMD Vivado Design Suite"
+- skill: "TEE: Texas Instruments (TI) MSP IP Encapsulation, Arm TrustZone"
 
-- skill: "Embedded Systems/FPGAs: Arm Cortex-M, Xilinx Artix-7"
+- skill: "TI CCS, TI DSS, MPLAB X, Atmel Studio, Keil uVision, mspdebug, GDB"
 
-- skill: "Trusted Execution Environment: Texas Instruments MSP IP Encapsulation"
+- skill: "AMD Vivado Design Suite, Cadence Genus, GCC, ANSYS Medini"
 
-- skill: "Threat Modelling and Risk Assessment: ANSYS Medini"
-
-- skill: "Programming Languages: C, Assembly (RISC-V, ARM), Verilog, Python, Javascript"
+- skill: "Programming Languages: C, Assembly (ARM, MSP430), Verilog, Python, Javascript"
