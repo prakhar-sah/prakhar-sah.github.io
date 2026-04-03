@@ -149,6 +149,16 @@
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+          {% if project.urng %}
+          <p style="text-align:center;"> 
+          <img src=images/ripe.png alt="RIPE" style="width:90%;height:90%;">
+          </p>
+          {% endif %}
+          {% if project.sheriff %}
+          <p style="text-align:center;"> 
+          <img src=images/ripe.png alt="RIPE" style="width:90%;height:90%;">
+          </p>
+          {% endif %}
           {% if project.ripe %}
           <p style="text-align:center;"> 
           <img src=images/ripe.png alt="RIPE" style="width:90%;height:90%;">
