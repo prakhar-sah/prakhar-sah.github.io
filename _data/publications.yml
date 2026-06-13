@@ -1,3 +1,10 @@
+- title: "Sheriff: Arresting the Confused Deputy Undermining Ultra-low SWaP Device Trusted Execution Environments"
+  fauthor: Prakhar Sah
+  oauthors: and Matthew Hicks
+  conference: ACM Asia Conference on Computer and Communications Security (AsiaCCS)
+  date: June 2026
+  pdf: https://dl.acm.org/doi/10.1145/3779208.3785277
+
 - title: "RIPencapsulation: Defeating IP Encapsulation on TI MSP Devices"
   fauthor: Prakhar Sah
   oauthors: and Matthew Hicks
