@@ -23,8 +23,8 @@ resume_contact_address:         "220 Gilbert Street, Level 4, Room #4305, Blacks
 resume_header_contact_info:     "220 Gilbert Street, Blacksburg, VA 24060 | sprakhar [at] vt.edu"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>With 4+ years of experience in intermittent computation, embedded systems,
-                         and hardware security, my research focuses on designing, evaluating, and
+resume_header_intro: "<p>With 4+ years of experience in embedded systems, hardware security, and
+                         intermittent computation, my research focuses on designing, evaluating, and
                          securing ultra-low-power embedded and batteryless devices. I approach
                          resource-constrained systems through a full-stack lens, combining
                          hardware/software co-design, bare-metal firmware development, system-level
