@@ -4,7 +4,7 @@
 # uRNG
 - project: A Framework for Evaluating Random Number Generators in Intermittent Computing Devices
   role: Main Contributor
-  duration: 2024 &mdash; 2025
+  duration: 2025 &mdash; 2025
   # url: "#"
   description: "A systematic framework to evaluate and qualify Random Number Generators (RNGs) under
                 intermittent operation and environmental influence. I use this framework to evaluate
