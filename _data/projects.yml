@@ -4,7 +4,7 @@
 # uRNG
 - project: A Framework for Evaluating Random Number Generators in Intermittent Computing Devices
   role: Main Contributor
-  duration: 2025 &mdash; 2026
+  duration: 2024 &mdash; 2025
   # url: "#"
   description: "A systematic framework to evaluate and qualify Random Number Generators (RNGs) under
                 intermittent operation and environmental influence. I use this framework to evaluate
@@ -16,7 +16,7 @@
 # Sheriff
 - project: Secure Enclave for Confused Deputy (CD) Threat on UlSWaP Devices
   role: Main Contributor
-  duration: 2023 &mdash; 2025
+  duration: 2023 &mdash; 2024
   # url: "#"
   description: "Hardware/software co-design for secure storage and context management addressing code and
                 data protection needs in Ultra-low Size, Weight, and Power (UlSWaP) devices that underlie
@@ -29,7 +29,7 @@
 # Ripencapsulation
 - project: Interrupt-based Side-Channel Attacks against Commercial TEEs
   role: Main Contributor
-  duration: 2022 &mdash; 2024
+  duration: 2022 &mdash; 2023
   # url: "#"
   description: "Texas Instruments MSP IP Encapsulation (IPE) aims to provide confidentiality
                 of data stored inside the IP-encapsulated memory zone; this includes proprietary
