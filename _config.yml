@@ -30,8 +30,9 @@ resume_header_intro: "<p>With 4+ years of experience in embedded systems, hardwa
                          hardware/software co-design, bare-metal firmware development, system-level
                          benchmarking, and performance–energy tradeoff analysis. My research investigates
                          practical security challenges in deployed embedded platforms including
-                         side-channel vulnerabilities, code-reuse threats, trusted execution environments,
-                         secure checkpointing, and randomness under intermittent operation.</p>"
+                         side-channel vulnerabilities, code-reuse threats, high-throughput embedded
+                         fuzzing, trusted execution environments, secure checkpointing, and randomness
+                         under intermittent operation.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
