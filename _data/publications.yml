@@ -1,3 +1,10 @@
+- title: "μRNG: A Framework for Assessing Randomness in Intermittent Computing Devices"
+  fauthor: Prakhar Sah
+  oauthors: and Matthew Hicks
+  conference: ACM/IEEE International Symposium on Computer Architecture (ISCA)
+  date: June 2026
+  pdf: https://doi.ieeecomputersociety.org/10.1109/ISCA66397.2026.00086
+
 - title: "Sheriff: Arresting the Confused Deputy Undermining Ultra-low SWaP Device Trusted Execution Environments"
   fauthor: Prakhar Sah
   oauthors: and Matthew Hicks
